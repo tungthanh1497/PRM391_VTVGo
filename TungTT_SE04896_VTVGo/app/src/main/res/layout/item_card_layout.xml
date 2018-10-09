@@ -65,14 +65,43 @@
                 android:textColor="#fff"
                 android:textSize="14sp" />
 
+            <ImageView
+                android:id="@+id/icon_played"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/item_detail"
+                android:src="@drawable/ic_play_circle_filled_white_24dp" />
+
             <TextView
-                android:id="@+id/item_reaction"
+                android:id="@+id/item_played"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/item_detail"
+                android:layout_toRightOf="@id/icon_played"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="caschddaaycaschddaaycaschddaaydfbdsgsdgbbkdfbkjdbfjvbdjfvbdfbvkj"
+                android:text="100"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/icon_liked"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/item_detail"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/item_played"
+                android:src="@drawable/ic_thumb_up_white_24dp" />
+
+            <TextView
+                android:id="@+id/item_liked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/item_detail"
+                android:layout_toRightOf="@id/icon_liked"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="100"
                 android:textColor="#fff"
                 android:textSize="16sp" />
 
