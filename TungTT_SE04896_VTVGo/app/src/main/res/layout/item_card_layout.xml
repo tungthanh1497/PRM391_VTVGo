@@ -48,8 +48,12 @@
                 android:layout_toRightOf="@+id/item_avatar"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:shadowColor="@color/colorTextShadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
                 android:text="News"
-                android:textColor="#fff"
+                android:textColor="@color/colorText"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -61,8 +65,12 @@
                 android:layout_toRightOf="@+id/item_avatar"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:shadowColor="@color/colorTextShadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
                 android:text="casch ddaay"
-                android:textColor="#fff"
+                android:textColor="@color/colorText"
                 android:textSize="14sp" />
 
             <ImageView
@@ -80,8 +88,12 @@
                 android:layout_toRightOf="@id/icon_played"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:shadowColor="@color/colorTextShadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
                 android:text="100"
-                android:textColor="#fff"
+                android:textColor="@color/colorText"
                 android:textSize="16sp" />
 
             <ImageView
@@ -101,8 +113,12 @@
                 android:layout_toRightOf="@id/icon_liked"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:shadowColor="@color/colorTextShadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
                 android:text="100"
-                android:textColor="#fff"
+                android:textColor="@color/colorText"
                 android:textSize="16sp" />
 
             <TextView
@@ -112,8 +128,12 @@
                 android:layout_alignParentBottom="true"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:shadowColor="@color/colorTextShadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
                 android:text="caschddaaycaschddaaycaschddaaydfbdsgsdgbbkdfbkjdbfjvbdjfvbdfbvkj"
-                android:textColor="#fff"
+                android:textColor="@color/colorText"
                 android:textSize="16sp" />
 
         </RelativeLayout>
