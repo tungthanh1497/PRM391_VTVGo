@@ -56,8 +56,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.itemAvatar.setImageResource(newsList.get(position).getImgAvatar());
         holder.itemTitle.setText(newsList.get(position).getTitle());
         holder.itemTime.setText(calculateDateAgo(newsList.get(position).getDatePublished()));
-        holder.itemPlayed.setText(newsList.get(position).getPlayed()+"");
-        holder.itemLiked.setText(newsList.get(position).getLiked()+"");
+        holder.itemPlayed.setText(newsList.get(position).getPlayed() + "");
+        holder.itemLiked.setText(newsList.get(position).getLiked() + "");
         holder.itemDetail.setText(newsList.get(position).getDetail());
     }
 
@@ -90,7 +90,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                                             public void onClick(View v) {
                                                 int position = getAdapterPosition();
                                                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(newsList.get(position).getUrlDirect()));
-                                                MainActivity.getContext().startActivity(intent);
+                                                v.getContext().startActivity(intent);
+//                                                MainActivity.getContext().startActivity(intent);
                                             }
                                         }
             );
